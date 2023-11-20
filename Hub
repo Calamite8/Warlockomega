@@ -398,7 +398,6 @@ local macroMapList = {
 		'Storm Hideout (Final)',
 		'West City',
 		'Bizzare Town',
-
 		'Hidden Sand Village',
 		'Shiganshinu District',
 		'Undead Tomb'
@@ -406,13 +405,6 @@ local macroMapList = {
 	};
 
 	['Portal'] = {
-		'Puppet Island (Summer)',
-		'Shiganshinu District (Summer)',
-		'Fabled Kingdom (Summer)',
-		'Alien Spaceship (Underwater)',
-		'Planet Namak (Summer)',
-		'Ant Kingdom (Summer)',
-		'Cursed Academy (Summer)',
 		'Fabled Kingdom (Cube)',
 		'The Eclipse',
 		'Alien Spaceship (Final)',
