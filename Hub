@@ -1,6 +1,5 @@
-if not game:IsLoaded() then
-	game.Loaded:Wait()
-end
+if not game:IsLoaded() then game.Loaded:Wait() end
+repeat task.wait() until game.Workspace:FindFirstChild(game.Players.LocalPlayer.Name)
 
 if game.PlaceId == 8304191830 then
 	repeat task.wait() until game.Players.LocalPlayer.PlayerGui:FindFirstChild("collection"):FindFirstChild("grid"):FindFirstChild("List"):FindFirstChild("Outer"):FindFirstChild("UnitFrames")
@@ -4334,12 +4333,11 @@ end)
 
 if GetSave('Hide Map') then Hide_Map(true) HideMap.Parent.BackgroundColor3 = checkBoxColors[true] end
 
-local RareDrop = {"Sea God's Portal"}
 
 local oldPlayerStats = {
 	Gems = player._stats.gem_amount.Value,
 	Gold = player._stats.gold_amount.Value,
-	Pearls = player._stats._resourceSummerPearls.Value,
+	Pearls = player._stats._resourceCandies.Value,
 	PlayerXP = player._stats.player_xp.Value,
 }
 
