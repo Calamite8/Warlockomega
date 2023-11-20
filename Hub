@@ -1,5 +1,6 @@
-
-if not game:IsLoaded() then game.Loaded:Wait() end
+if not game:IsLoaded() 
+        then game.Loaded:Wait() 
+end
 repeat task.wait() until game.Workspace:FindFirstChild(game.Players.LocalPlayer.Name)
 
 if game.PlaceId == 8304191830 then
