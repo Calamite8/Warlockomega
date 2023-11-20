@@ -115,6 +115,14 @@ local DifficultiesName = {
 	short_range = 'Short Range'
 }
 
+local halloweenWorlds = {
+        namak_halloween = 'Planet Namak (Halloween)',
+        shiganshinu_halloween = 'Shiganshinu (Halloween)',
+        bizzare_halloween = 'Bizzare Town (Halloween)',
+        clover_halloween = 'Clover Kingdom (Halloween)',
+        magic_halloween = 'Magic Town (Halloween)',
+}
+
 local portalWorlds = {
 	eclipse_portal = 'The Eclipse',
 }
@@ -414,6 +422,11 @@ local macroMapList = {
 
 	['Other'] = {
 		'Cursed Womb'
+                'Planet Namak (Halloween)'
+                'Shiganshinu (Halloween)'
+                'Bizzare Town (Halloween)'
+                'Clover Kingdom (Halloween)'
+                'Magic Town (Halloween)'
 	}
 }
 
