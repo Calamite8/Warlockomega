@@ -1,4 +1,4 @@
-repeat task.wait() until game.Workspace:FindFirstChild(game.Players.LocalPlayer.Name)
+
 
 if game.PlaceId == 8304191830 then
 	repeat task.wait() until game.Players.LocalPlayer.PlayerGui:FindFirstChild("collection"):FindFirstChild("grid"):FindFirstChild("List"):FindFirstChild("Outer"):FindFirstChild("UnitFrames")
@@ -9,8 +9,6 @@ if getgenv().UltraHubExecuted then return end
 getgenv().UltraHubExecuted = true
 
 -- SERVICES
-local char =  player.Character or player.CharacterAdded:Wait()
-local players = game:GetService('Players')
 local HttpService = game:GetService('HttpService')
 local UIS = game:GetService('UserInputService')
 local RunS = game:GetService('RunService')
