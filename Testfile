@@ -414,11 +414,11 @@ local macroMapList = {
 	};
 
 	['Other'] = {
-		'Cursed Womb'
-                'Planet Namak (Halloween)'
-                'Shiganshinu (Halloween)'
-                'Bizzare Town (Halloween)'
-                'Clover Kingdom (Halloween)'
+		'Cursed Womb',
+                'Planet Namak (Halloween)',
+                'Shiganshinu (Halloween)',
+                'Bizzare Town (Halloween)',
+                'Clover Kingdom (Halloween)',
                 'Magic Town (Halloween)'
 	}
 }
