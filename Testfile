@@ -10,6 +10,7 @@ if getgenv().UltraHubExecuted then return end
 getgenv().UltraHubExecuted = true
 
 -- SERVICES
+local char =  player.Character or player.CharacterAdded:Wait()
 local players = game:GetService('Players')
 local HttpService = game:GetService('HttpService')
 local UIS = game:GetService('UserInputService')
