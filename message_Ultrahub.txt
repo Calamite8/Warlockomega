@@ -115,14 +115,16 @@ local DifficultiesName = {
 	short_range = 'Short Range'
 }
 
+local halloweenWorlds = {
+        namek_halloween = 'Planet Namak (Halloween)',
+        aot_halloween = 'Shiganshinu (Halloween)',
+        morioh_halloween = 'Bizzare Town (Halloween)',
+        magnolia_halloween = 'Clover Kingdom (Halloween)',
+        hage_elf_halloween = 'Magic Town (Halloween)',
+        marineford_halloween = 'Marine Ford (Halloween)'
+}
+
 local portalWorlds = {
-	dressrosa_infinite = 'Puppet Island (Summer)',
-	aot_infinite = 'Shiganshinu District (Summer)',
-	jjk_infinite = 'Cursed Academy (Summer)',
-	namek_infinite = 'Planet Namak (Summer)',
-	['7ds_infinite'] = 'Fabled Kingdom (Summer)',
-	hxhant_infinite = 'Ant Kingdom (Summer)',
-	opm_infinite = 'Alien Spaceship (Underwater)',
 	eclipse_portal = 'The Eclipse',
 }
 
@@ -413,22 +415,19 @@ local macroMapList = {
 	};
 
 	['Portal'] = {
-		'Puppet Island (Summer)',
-		'Shiganshinu District (Summer)',
-		'Fabled Kingdom (Summer)',
-		'Alien Spaceship (Underwater)',
-		'Planet Namak (Summer)',
-		'Ant Kingdom (Summer)',
-		'Cursed Academy (Summer)',
-		'Fabled Kingdom (Cube)',
-		'The Eclipse',
-		'Alien Spaceship (Final)',
 		'Puppet Island (Birdcage)'
 
 	};
 
 	['Other'] = {
-		'Cursed Womb'
+		'Cursed Womb',
+                'Planet Namak (Halloween)',
+                'Shiganshinu District (Halloween)',
+                'Bizzare Town (Halloween)',
+                'Clover Kingdom (Halloween)',
+                'Magic Town (Halloween)',
+                'Marine Ford (Halloween)',
+
 	}
 }
 
