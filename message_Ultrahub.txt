@@ -426,7 +426,7 @@ local macroMapList = {
                 'Bizzare Town (Halloween)',
                 'Clover Kingdom (Halloween)',
                 'Magic Town (Halloween)',
-                'Marine Ford (Halloween)',
+                'Marine Ford (Halloween)'
 
 	}
 }
